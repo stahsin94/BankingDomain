@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.99 sec <<< FAILURE! - in TestSuite
+testValidLogin(com.login.verification.Login_Functionality_Test)  Time elapsed: 1.717 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Accounts Overview] but found [Error!]
+	at com.login.verification.Login_Functionality_Test.testValidLogin(Login_Functionality_Test.java:36)
+
+testInvalidLogin(com.login.verification.Login_Functionality_Test)  Time elapsed: 1.086 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='smallText']"}
+  (Session info: chrome=121.0.6167.140)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'TARIQ-DESKTOP', ip: '192.168.68.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Sanila\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57411}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 171ee6ce3e9abb59c28ba84e6cef043c
+*** Element info: {Using=xpath, value=//p[@class='smallText']}
+	at com.login.verification.Login_Functionality_Test.testInvalidLogin(Login_Functionality_Test.java:51)
+
